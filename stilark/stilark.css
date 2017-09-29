@@ -1,0 +1,287 @@
+﻿/*Forhindrer at browseren ødelegger */
+
+@import url('normalize.css');
+body *{
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;  		
+	}
+
+body {
+	margin:0;
+	background-color:#FFFAF0;  /*background-color:#FFFAF0;*/
+}	
+	
+header, main, footer, nav, article, aside, div {
+	display: block;
+	overflow: hidden;
+	
+}
+
+/*Struktur */
+
+#wrapper{
+	margin: 0 auto;  /*Sett margen til å være 0 oppe og nede, automatisk på sidene */
+	width: 100%;
+	max-width: 800px;
+	background-color:#FFFAF0;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+p, a, li  {
+	
+	font-family: 'Oswald', sans-serif;
+}
+
+/*HEADER*/
+
+
+#imgHeader{			/*PARALLAXE EFFEKT */
+	margin-top: 20px;
+	border: solid 1px black;
+	background-image: url('bakgrunnsbilder/ilya-pavlov-87438.jpg');
+	background-color:#FFFAF0;
+	background-size: cover;
+	min-height:500px;  /*Høyden er basert på forholdet mellom img-header og boksene under. Dette skal være lik phi*/
+	background-position:center;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	height: 300px;
+	width:800px;	
+	padding: 25px;
+}
+
+#imgHeader {
+	color:yellow;
+	
+}
+
+#imgHeader p {
+	font-size: 20px;
+	
+	
+}
+
+#imgHeader ul li:first-child{
+	text-decoration: line-through;
+	
+}
+
+/* bokser*/
+
+main div img {
+	height:50%;
+	margin: 0 auto;
+	
+}
+
+main div{
+	margin-top:50px;
+	overflow:scroll;
+	width: 30%;
+	margin-left:12.5px;
+	border-style:solid;  /*Settes til solid for debuggingen sin del*/
+	height: 300px;
+	display:inline-block;
+	flex:auto;
+	background-color:#FFEBDC;		/*background-color:#FFEBDC;*/
+		
+	}
+
+main div h2{
+	text-align:center;
+	
+}	
+	
+main div p {
+	padding:0 20px;
+	font-size: 18px;
+
+	
+}	
+	
+
+
+/*Artikkel og artikkelsider*/
+article{
+	width:60%;
+	float:right;
+}	
+#sideNav {
+	margin-top:10px;
+	width:20%;
+	position:fixed;
+	background-color:#FFEBDC;
+	
+}
+
+/*About-artikkel*/
+
+.fibonacci {
+	margin:15px;
+	width:50%;
+	float:right;
+	
+}
+
+.templates{
+	margin:15px;
+	width: 50%;
+	float: right;
+	
+}
+
+table tr td {
+	text-align: right;
+	
+}
+
+table tr:nth-child(even) {
+	
+	background-color:#FFEBDC;
+}
+
+
+/*MathML -artikkel*/
+.vecPics{
+	width:50%;
+	height:50%;
+}
+
+/* komplimentær farge for h2 background-color: #FFEBDC;*/
+
+
+#breadCrumbs a {
+	text-decoration:none;
+	font-size:16px;
+	color:black;
+	
+}
+
+
+#breadCrumbs {
+	font-weight: bold;
+	font-size: 16px;
+	
+}
+
+/*HEADER*/
+
+header {
+	background-color:#FFA500;
+	color:white;
+	text-shadow:2px 2px #341C09;
+	width:100%;
+	
+}
+
+
+
+
+
+*/* NAVIGATION MENU COMPUTER*/ 
+
+
+#navigationMenu ul a {
+	text-decoration:none;
+	color: #341C09;
+	padding:0 13px;  /* Padding i dette tilfellet utfÃ¸res for Ã¥ spre lenkene ifra hverandre */
+	margin:0 35px;
+	font-size:16px;
+	float: left;
+	
+}
+
+#navigationMenu ul {
+	list-style: none;
+	
+	
+}
+
+#navigationMenu ul a:hover{	
+	border-bottom:solid #341C09;
+	
+}
+
+
+#active {
+	
+	border-bottom: solid #341C09;
+}
+
+
+/*DETAILS/SUMMARY-table*/
+details{
+	
+	margin:	20px 0px;
+}
+
+details table th{
+	
+	padding:10px;
+}
+
+
+/*NAVIGATION MENU MOBILE*/
+/*Denne siden ble designet med utgangspunkt for datamaskin og så tilpasset mobil, dette er ikke best-practice. det er ikke best practice*/
+
+@media screen and (max-width: 800px) { 
+	#navigationMenu {
+		display:none;
+		
+	}
+
+}
+	
+
+/*Footer STUFF */
+
+
+footer{
+	text-decoration:none;
+	background-color: #9D4502;
+	text-align:center;
+	width: 800px;
+	color: #FFEBDC;	
+	position:absolute;
+}
+
+footer p a {
+	text-decoration:none;
+	padding:5px;
+	color:#FFEBDC;	
+	
+}
+
+
+footer a:hover{
+	
+	color:gray;
+}
+
+footer a:visited{
+	
+	color:yellow;
+	
+}
+
+footer a:visited:hover{
+	color:gray;
+	
+}
+
+a:active {
+	color:red;
+	
+}
+
+#contact a{
+	padding:0 5px;
+	border-left:solid #FFEBDC;
+	
+}
