@@ -33,7 +33,7 @@ h1, h2, h3 {
 	
 }
 
-p, a, li, p, th, td  {
+p, a, li, p, th, td, details  {
 	
 	font-family: 'Oswald', sans-serif;
 }
@@ -41,6 +41,41 @@ p, a, li, p, th, td  {
 th,td {
 	
 	padding:10px;
+}
+
+
+/* komplimentær farge for h2 background-color: #FFEBDC;*/
+
+
+#breadCrumbs a {
+	text-decoration:none;
+	font-size:16px;
+	color:black;
+	
+}
+
+
+#currentSite {
+	font-weight: bold;
+	font-size: 16px;
+	
+}
+
+
+/*HEADER*/
+
+header h1 a {
+	text-decoration:none;
+	color:white;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+header {
+	background-color:#FFA500;
+	color:white;
+	text-shadow:2px 2px #341C09;
+	width:100%;	
 }
 
 /*imgHEADER*/
@@ -171,39 +206,9 @@ table tr:nth-child(even) {
 	height:50%;
 }
 
-/* komplimentær farge for h2 background-color: #FFEBDC;*/
 
 
-#breadCrumbs a {
-	text-decoration:none;
-	font-size:16px;
-	color:black;
-	
-}
-
-
-#currentSite {
-	font-weight: bold;
-	font-size: 16px;
-	
-}
-
-/*HEADER*/
-
-header h1 a {
-	text-decoration:none;
-	color:white;
-	font-family: 'Roboto Condensed', sans-serif;
-	
-}
-
-header {
-	background-color:#FFA500;
-	color:white;
-	text-shadow:2px 2px #341C09;
-	width:100%;	
-}
-*/* NAVIGATION MENU COMPUTER*/ 
+/* NAVIGATION MENU COMPUTER*/ 
 #navigationMenu ul a {
 	text-decoration:none;
 	color: #341C09;
@@ -231,7 +236,10 @@ header {
 /*DETAILS/SUMMARY-table*/
 details{	
 	margin:	20px 0px;
+	text-align:center;
 }
+
+
 
 details table th{
 	
