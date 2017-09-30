@@ -155,32 +155,51 @@ article{
 }
 
 #gitlogo{
-	width:50%;
+	width:33%;
 	float:right;
 	margin-top:10px
 	
 }
 
+#gitkraken{
+	width:90%;
+	float:right;
+	margin:15px;
+	
+}
+
 #githubpic{
 	width:90%;
+	float:right;
+	margin:15px;
 }
 
 #gitstaged{
 	width:40%;
+	margin:15px;
 	
 }
 
 #githubstaged{
 	width:40%;
+	margin:15px;
 	
 }
 
 #githubcommit{
 	width:40%;
+	margin:15px;
 }
 
 #githubcommited{
 	width:90%;
+	margin:15px;
+	
+}
+
+#githubpushed{
+	width:90%;
+	margin:15px;
 	
 }
 
