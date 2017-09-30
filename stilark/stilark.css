@@ -50,7 +50,6 @@ th,td {
 
 #imgHeader{			/*PARALLAXE EFFEKT */
 	margin-top: 20px;
-	border: solid 1px black;
 	background-image: url('bakgrunnsbilder/ilya-pavlov-87438.jpg');
 	background-color:#FFFAF0;
 	background-size: cover;
@@ -90,8 +89,9 @@ main div img {
 
 main div{
 	margin-top:50px;
+	overflow:scroll;
 	width: 30%;
-	margin-left:12.5px;
+	margin-left:15px;
 	height: 300px;
 	display:inline-block;
 	flex:auto;
@@ -107,8 +107,6 @@ main div h2{
 main div p {
 	padding:0 20px;
 	font-size: 18px;
-
-	
 }	
 	
 
@@ -190,22 +188,14 @@ header {
 	background-color:#FFA500;
 	color:white;
 	text-shadow:2px 2px #341C09;
-	width:100%;
-	
+	width:100%;	
 }
-
-
-
-
-
 */* NAVIGATION MENU COMPUTER*/ 
-
-
 #navigationMenu ul a {
 	text-decoration:none;
 	color: #341C09;
 	padding:0 13px;  /* Padding i dette tilfellet utfÃ¸res for Ã¥ spre lenkene ifra hverandre */
-	margin:0 35px;
+	margin:0 75px;
 	font-size:16px;
 	float: left;
 	
@@ -221,17 +211,12 @@ header {
 	border-bottom:solid #341C09;
 	
 }
-
-
 #active {
 	
 	border-bottom: solid #341C09;
 }
-
-
 /*DETAILS/SUMMARY-table*/
-details{
-	
+details{	
 	margin:	20px 0px;
 }
 
@@ -239,8 +224,6 @@ details table th{
 	
 	padding:10px;
 }
-
-
 /*NAVIGATION MENU MOBILE*/
 /*Denne siden ble designet med utgangspunkt for datamaskin og så tilpasset mobil, dette er ikke best-practice.*/
 
@@ -254,8 +237,6 @@ details table th{
 	
 
 /*Footer STUFF */
-
-
 footer{
 	text-decoration:none;
 	background-color: #9D4502;
@@ -271,8 +252,6 @@ footer p a {
 	color:#FFEBDC;	
 	
 }
-
-
 footer a:hover{
 	
 	color:gray;
