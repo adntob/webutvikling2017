@@ -33,12 +33,19 @@ h1, h2, h3 {
 	
 }
 
-p, a, li  {
+p, a, li, p, th, td  {
 	
 	font-family: 'Oswald', sans-serif;
 }
 
-/*HEADER*/
+th,td {
+	
+	padding:10px;
+}
+
+/*imgHEADER*/
+
+
 
 
 #imgHeader{			/*PARALLAXE EFFEKT */
@@ -115,6 +122,7 @@ article{
 	margin-top:10px;
 	width:20%;
 	position:fixed;
+	max-width:280px; /*Forhindrer menyen fra å krympe/øke */
 	background-color:#FFEBDC;
 	
 }
@@ -170,6 +178,13 @@ table tr:nth-child(even) {
 }
 
 /*HEADER*/
+
+header h1 a {
+	text-decoration:none;
+	color:white;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
 
 header {
 	background-color:#FFA500;
