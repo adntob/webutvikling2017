@@ -161,7 +161,25 @@ article{
 	
 }
 
-#gitkraken {
+#githubpic{
+	width:90%;
+}
+
+#gitstaged{
+	width:40%;
+	
+}
+
+#githubstaged{
+	width:40%;
+	
+}
+
+#githubcommit{
+	width:40%;
+}
+
+#githubcommited{
 	width:90%;
 	
 }
@@ -172,6 +190,7 @@ aside img {
 	margin-left:50px;
 	
 }
+
 
 /*About-artikkel*/
 
