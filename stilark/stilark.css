@@ -38,13 +38,15 @@ p, a, li, p, th, td, details  {
 	font-family: 'Oswald', sans-serif;
 }
 
+article p{
+	text-align:justify;
+}
+
+
 th,td {
 	
 	padding:10px;
 }
-
-
-/* komplimentær farge for h2 background-color: #FFEBDC;*/
 
 
 #breadCrumbs a {
@@ -153,6 +155,7 @@ article{
 	background-color:#FFEBDC;
 	
 }
+/*Git & GitHub-artikler*/
 
 #gitlogo{
 	width:33%;
@@ -215,28 +218,38 @@ aside img {
 
 .fibonacci {
 	margin:15px;
-	width:50%;
+	width:40%;
 	float:right;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.fibonacci:hover{
+	box-shadow:0 0 2px 1px rgba(0, 140, 186, 0.5);
 	
 }
 
 .templates{
 	margin:15px;
-	width: 50%;
-	float: right;
+	width: 30%;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+img:hover {
+	box-shadow:0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+table, th, td {
+	padding:5px;hi
 	
 }
 
-table tr td {
-	text-align: right;
-	
-}
 
 table tr:nth-child(even) {
 	
 	background-color:#FFEBDC;
 }
-
 
 /*MathML -artikkel*/
 .vecPics{
@@ -317,9 +330,7 @@ footer a:hover{
 }
 
 footer a:visited{
-	
 	color:yellow;
-	
 }
 
 footer a:visited:hover{
